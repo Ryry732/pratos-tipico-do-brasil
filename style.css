@@ -1,0 +1,368 @@
+html {
+  font-family: 'Roboto';
+}
+.quadrado {
+  /*tamanho do quadrado title*/
+  height: 60px;
+  width: 390px;
+  border-radius:20px 20px 20px 20px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+  /* Centralizar conteúdo */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center;
+}
+
+.quadrado h1 {
+  color: darkblue;
+  /*Tamanho do texto*/
+  font-size: 30px;
+/* Removemos a posição absoluta */
+  margin: 0; /* Remove margem padrão */
+  font-family: Arial, Helvetica;
+  
+}
+body {
+  /*cor de fundo*/
+  background-color: #F5F5F5;
+/*font*/
+font-family:'Roboto';
+}
+.quadrado2 {
+  /*tamanho do quadrado title*/
+  height: 200px;
+  width: 390px;
+  border-radius:30px 30px 30px 30px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top: 130px;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+  /* Centralizar conteúdo */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center
+}
+.quadrado2 h2{
+  color: darkblue;
+  font-family: Arial, Helvetica;
+}
+
+.quadrado3 {
+  /*tamanho do quadrado title*/
+  height: 400px;
+  width: 390px;
+  border-radius:30px 30px 30px 30px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top:400px;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+}
+.quadrado3 h2 {
+  color: darkblue;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.quadrado3 p {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.quadrado3 img {
+  position: absolute;
+  top: 160px;
+  left: 80px;
+  border-radius: 50px 50px 50px 50px;
+}
+.quadrado4 {
+  /*tamanho do quadrado title*/
+  height: 400px;
+  width: 390px;
+  border-radius:30px 30px 30px 30px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top:880px;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+}
+.quadrado4 h2 {
+  color: darkblue;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.quadrado4 p {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+}
+.quadrado4 img {
+  position: absolute;
+  top: 160px;
+  left: 80px;
+  border-radius: 50px 50px 50px 50px;
+}
+.quadrado5 {
+  /*tamanho do quadrado title*/
+  height: 400px;
+  width: 390px;
+  border-radius:30px 30px 30px 30px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top: 1360px;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+}
+.quadrado5 h2 {
+  color: darkblue;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.quadrado5 p {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.quadrado5 img {
+  position: absolute;
+  top: 160px;
+  left: 80px;
+  border-radius: 50px 50px 50px 50px;
+}
+.quadrado6 {
+  /*tamanho do quadrado title*/
+  height: 400px;
+  width: 390px;
+  border-radius:30px 30px 30px 30px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top: 1830px;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+}
+.quadrado6 h2 {
+  color: darkblue;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.quadrado6 p {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.quadrado6 img {
+  position: absolute;
+  top: 160px;
+  left: 80px;
+  border-radius: 50px 50px 50px 50px;
+}
+.quadrado7 {
+  /*tamanho do quadrado title*/
+  height: 400px;
+  width: 390px;
+  border-radius:30px 30px 30px 30px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top:2300px;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+}
+.quadrado7 h2 {
+  color: darkblue;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.quadrado7 p {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.quadrado7 img {
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  border-radius: 50px 50px 50px 50px;
+}
+.quadrado8 {
+  /*tamanho do quadrado title*/
+  height: 400px;
+  width: 390px;
+  border-radius:30px 30px 30px 30px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top:2780px;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+}
+.quadrado8 h2 {
+  color: darkblue;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.quadrado8 p {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.quadrado8 img {
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  border-radius: 50px 50px 50px 50px;
+}
+.quadrado9 {
+  /*tamanho do quadrado title*/
+  height: 400px;
+  width: 390px;
+  border-radius:30px 30px 30px 30px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top:3270px;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+}
+.quadrado9 h2 {
+  color: darkblue;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.quadrado9 p {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.quadrado9 img {
+  position: absolute;
+  top: 160px;
+  left: 80px;
+  border-radius: 50px 50px 50px 50px;
+}
+.quadrado10 {
+  /*tamanho do quadrado title*/
+  height: 400px;
+  width: 390px;
+  border-radius:30px 30px 30px 30px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top:3750px;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+}
+.quadrado10 h2 {
+  color: darkblue;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.quadrado10 p {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.quadrado10 img {
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  border-radius: 50px 50px 50px 50px;
+}
+.quadrado11 {
+  /*tamanho do quadrado title*/
+  height: 400px;
+  width: 390px;
+  border-radius:30px 30px 30px 30px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top: 4250px;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+}
+.quadrado11 h2 {
+  color: darkblue;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.quadrado11 p {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+}
+.quadrado11 img {
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  border-radius: 50px 50px 50px 50px;
+}
+.quadrado12 {
+  /*tamanho do quadrado title*/
+  height: 400px;
+  width: 390px;
+  border-radius:30px 30px 30px 30px;
+  /*posição do quadrado title*/
+  position: absolute;
+  top: 4730px;
+  left: 0;
+  /*cor do quadrado title*/
+  background-color: #FAF3E0;
+}
+.quadrado12 h2 {
+  color: darkblue;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.quadrado12 p {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.quadrado12 img {
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  border-radius: 50px 50px 50px 50px;
+}
